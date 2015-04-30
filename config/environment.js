@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dictator-2',
+    podModulePrefix: 'dictator-2/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
