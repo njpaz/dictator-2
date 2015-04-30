@@ -1,0 +1,15 @@
+<button disabled={{disabled}} {{action "record"}}>
+  {{#if isRecording}}
+    Stop
+  {{else}}
+    Start
+  {{/if}}
+</button>
+{{#if isRecording}}
+  <div class="recording">
+    Recording...
+  </div>
+{{/if}}
+<div class="results">
+  {{results}}
+</div>
